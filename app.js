@@ -21,12 +21,12 @@ app.use(minifyHTML({
   override: true,
   exception_url: false,
   htmlMinifier: {
-    removeComments: false,
+    removeComments: true,
     collapseWhitespace: true,
     collapseBooleanAttributes: false,
     removeAttributeQuotes: false,
     removeEmptyAttributes: false,
-    minifyJS: false
+    minifyJS: true
   }
 }));
 
